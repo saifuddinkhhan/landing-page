@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crest Inventory Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3607e5b0bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <img src="https://cdn-icons-png.flaticon.com/256/10433/10433045.png" class="logo"/><div class="nav-brand">CleverBooks</div>
+        <ul class="nav-links">
+            <li><a href="#home">Product</a></li>
+            <li><a href="#aboutus">Pricing</a></li>
+            <li><a href="#contactus">Industry</a></li>
+            <li><a href="#contactus">Customer Stories</a></li>
+            <li><a href="#contactus">About </a></li>
+            <li><a href="#contactus">Blogs</a></li>
+        </ul>
+        <button class="login-button" onclick="openLoginModal()">Login</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero ">
+        <div class="show-animate">
+            <h1 class="animate">Innovate. <br>Manage. Grow.</h1>
+            <p class="animate">Revolutionize your inventory management with Crest.</p>
+            <a href="#" class="jbtn animate">Get started with CleverBooks</a>
+        </div>
+    </section>
+
+    <!-- Key Problems Solved Section -->
+    <section id="aboutus" class="problems">
+        <h2 class="">Key Problems Solved by Crest</h2>
+        <span class="problem-cards">
+            <div class="card animate" style="--i:0">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f63ee54595853ca5e31682_what%20to%20orderr%20(1).svg" class="ico">
+                <h3>What to order</h3>
+                <p>Get accurate demand and days to stock out. Automate purchase planning so you can always have what you need for your next sales cycle.</p>
+            </div>
+            <div class="card animate" style="--i:1">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63bd0d2fab2e360025df922a_when%20to%20orderr.svg" class="ico">
+                <h3>When to order</h3>
+                <p>Have up-to-date inventory, storage, sales velocity, and demand. Get timely order suggestions so you're never left guessing.</p>
+            </div>
+            <div class="card animate" style="--i:2">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63bd0cc629ab7f2d8cb0a8bd_how%20much%20to%20stock.svg" class="ico">
+                <h3>How much to stock</h3>
+                <p>Get inventory requirements for every node, for every SKU. So you avoid out-of-stock situations, even during demand spikes.</p>
+            </div>
+            <div class="card animate " style="--i:4">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63bd0c2c27cde81ffea6515b_where%20to%20placee.svg" class="ico">
+                <h3>Where to place</h3>
+                <p>Our tool suggests how to move stock within your supply chain. So you'll always have products available across cities.</p>
+            </div>
+        </span>
+    </section>
+
+    <!-- Key Metrics Section -->
+    <div class="wrapper">
+        <div class="matimage-container">
+        <img src="./images/Responsive-pana.png" class="matimage">
+        <h2 class="head">Why Choose Crest?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo eum voluptatum sapiente itaque nobis aperiam ratione officiis cumque veniam, esse voluptas accusantium, quis cum repellat non velit! Similique, harum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo eum voluptatum sapiente itaque nobis aperiam ratione officiis cumque veniam, esse voluptas accusantium, quis cum repellat non velit! Similique, harum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo eum voluptatum sapiente itaque nobis aperiam ratione officiis cumque veniam, esse voluptas accusantium, quis cum repellat non velit! Similique, harum.
+        </p>
+    </div>
+</div>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <h2>What Our Clients Say</h2>
+        <div class="review">
+            <p>"Crest has completely transformed our inventory management. The real-time updates and automated reports have saved us countless hours."</p>
+            <h4>- Alex Johnson, Operations Manager</h4>
+        </div>
+        <div class="review">
+            <p>"We no longer worry about stock levels. Crest's accuracy and reliability are unmatched."</p>
+            <h4>- Emily Davis, Store Owner</h4>
+        </div>
+    </section>
+
+    <!-- Problem Target Section -->
+    
+        
+        <div class="container" >
+        <div class="slide-container active">
+            <div class="slide">
+            <div id="feature1" class="content">
+                <h3>Ease of use, for everyone</h3>
+                <p>With an intuitive interface and empathetic design, Crest requires only minimal training (or beginner-level knowledge of supply chain) to use.</p>
+            </div>
+            <div class="image">
+                <img src="./images/Responsive-pana.png" />
+            </div>
+          </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+            <div id="feature1" class="content">
+                <h3>Deep domain expertise</h3>
+                <p>Our team members have years of experience leading supply chains for businesses ranging from $10M to $10B.</p>
+            </div>
+            <div class="image">
+                <img src="./images/development.png" />
+            </div>
+          </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+            <div id="feature1" class="content">
+                <h3>A focus on KPIs that matter</h3>
+                <p>Our tools help you make decisions to grow your business. Everything works towards improving cash flow and product availability.</p>
+            </div>
+            <div class="image">
+                <img src="./images/web-devices.png" />
+            </div>
+          </div>
+        </div>
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+     </div>
+    </div>
+    
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="waves">
+        <div id="wave1" class="wave"></div>
+        <div id="wave2" class="wave"></div>
+        <div id="wave3" class="wave"></div>
+        <div id="wave4" class="wave"></div>
+    </div>
+        <h2>Grow Faster Than You Think</h2>
+        <p class="para">Sign up today and transform the way you manage your inventory.</p>
+        <button class="cta-button">Get Started</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contactus">
+        <p>&copy; 2024 Crest Inventory Management</p>
+        <p>123 Inventory Lane, Warehouse City, IN 12345</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginModal()">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
